@@ -38,3 +38,7 @@ p {
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 20px;
 }
+#guessed {
+    color:black;
+    font-weight: 700;
+}

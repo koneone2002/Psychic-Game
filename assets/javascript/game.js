@@ -25,7 +25,8 @@ function restart() {
     guessesLeft = 9;
     compGuess();
     console.log("answer is: " + answer);
-    document.getElementById("guesses").value = " ";
+   
+    //document.getElementById("guesses").value = "guess it";
 }
 
 compGuess();
@@ -43,6 +44,7 @@ document.onkeyup = function (event) {
         
     } else if (answer === guess) {
         wins++;
+        
         document.getElementById("wins").innerHTML = "Wins : " + wins;
         alert("You won");
         restart();
